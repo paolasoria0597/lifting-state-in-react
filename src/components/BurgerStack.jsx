@@ -1,4 +1,6 @@
 import Ingredient from "./Ingredient";
+import '../App.css';
+
 const BurgerStack = ({stack,removeFromBurger}) => {
     return (
      <ul>

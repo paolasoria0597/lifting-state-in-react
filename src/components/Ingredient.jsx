@@ -1,6 +1,10 @@
-const Ingredient= ({ingredient,handleClick, buttonLabel}) => {
+import '../App.css';
+
+const Ingredient= ({ingredient,handleClick,buttonLabel}) => {
   return (
-    <li>
+    <li style={{
+        backgroundColor: ingredient.color,
+    }}>
         {ingredient.name}
         <button onClick= {handleClick}>{buttonLabel}</button>
     </li>

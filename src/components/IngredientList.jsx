@@ -1,10 +1,10 @@
 import Ingredient from "./Ingredient";
+import '../App.css';
 
-// src/components/IngredientList.jsx
 const IngredientList = ({ingredients,addToBurger}) => {
 
     return (
-    <ul>
+    <ul >
         {ingredients.map((ingredient,index)=> (
        <Ingredient
          key={index} 
